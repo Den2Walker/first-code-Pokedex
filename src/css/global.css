@@ -1,0 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/*  estiliza diretamente a tag   */
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadfe8;
+}
+/* para estilizar uma classe coloca um . */
+.pokedex {
+    display: flex;
+    gap: 30px; /* espaçamento entre os itens 'filhos' que recebem essa estilização */
+    padding: 30px 0; /* espaçamento entre o conteúdo e a borda */
+}
